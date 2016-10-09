@@ -1,1 +1,5 @@
-app/config.php
+!.gitignore
+.DS_Store
+Thumbs.db
+.idea
+.well-known
