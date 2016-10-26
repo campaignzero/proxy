@@ -1,4 +1,6 @@
-Campaign Zero Proxy
+![Campaign Zero Logo](https://github.com/campaignzero/artwork/raw/master/logo/campaign-zero/web/306x128/campaign-zero.png "Campaign Zero Logo")
+
+Image Proxy
 ===
 
 This repository is setup to load HTTP images over the secure HTTPS protocol.  This is mainly because OpenStates.org returns whatever `photo_url` was provided to them, and sometimes those are HTTP based images.  Since loading insecure content over SSL certificates invalidates the certificate ... which is no good.  Invalid SSL certificates actually prevent Geolocation services on some modern browsers, which is why an image proxy service is needed.
